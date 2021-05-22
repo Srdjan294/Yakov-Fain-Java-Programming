@@ -14,6 +14,8 @@ class Tax {
 		grossIncome = gi;
 		state = st;
 		dependents = depen;
+		
+		System.out.println("Tax constructor.");
 	}
 	
 	public static void main(String[] args) {
